@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="3000" height="3000" viewBox="0 0 3000 3000">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: #2b4cc9;
+      }
+
+      .cls-1 {
+        stroke: #fff;
+        stroke-width: 26.52px;
+      }
+
+      .cls-2, .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-2, .cls-3 {
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        filter: url(#filter);
+      }
+
+      .cls-4 {
+        font-size: 300px;
+        text-anchor: middle;
+        font-family: Roboto;
+        font-weight: 700;
+      }
+    </style>
+    <filter id="filter" x="620" y="532" width="1871" height="1871" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="28" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="7.681"/>
+      <feFlood result="flood" flood-opacity="0.3"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <circle class="cls-1" cx="1506.002" cy="1446.002" r="1207.658"/>
+  <path class="cls-2" d="M575.448,1550.21L1401.79,515.448,2436.55,1341.79,1610.21,2376.55Z"/>
+  <path id="Rectangle_1_copy" data-name="Rectangle 1 copy" class="cls-3" d="M678.028,1537.21L1456.76,562.075,2431.89,1340.8l-778.73,975.14Z"/>
+  <text id="UI" class="cls-4" transform="translate(1543.233 1812.957) scale(3.258)"><tspan x="0">UI</tspan></text>
+</svg>
